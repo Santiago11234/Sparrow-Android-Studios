@@ -3,6 +3,8 @@ package com.example.sparrow;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,9 +29,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
+        Button yourButton = (Button) findViewById(R.id.home);
+        yourButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this, HomeActivity.class));
+            }
+        });
+
+    /*
         retrofit = new Retrofit.Builder()
-                .baseUrl(BASE_URL)
+                .baseUrl(BASE_URL) //add url later
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -48,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
                 handleSignupDialog();
             }
         });
+*/
+    }
+
+    private void handleHomeActivity() {
+        View view = getLayoutInflater().inflate(R.layout.activity_home, null);
+
     }
 
     private void handleLoginDialog() {

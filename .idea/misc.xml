@@ -3,9 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_chilos_planning.xml" value="0.31846923828125007" />
+        <entry key="app/src/main/res/drawable/ic_chilos_planning__1_.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/home_dialog.xml" value="0.17135416666666667" />
+        <entry key="app/src/main/res/layout/home_main.xml" value="0.1358695652173913" />
+        <entry key="app/src/main/res/layout/login_dialog.xml" value="0.2234375" />
         <entry key="app/src/main/res/layout/login_dialogue.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/signup_dialog.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/signup_dialog.xml" value="0.30091827392578124" />
         <entry key="app/src/main/res/layout/signup_dialogue.xml" value="0.2961491902669271" />
       </map>
     </option>
